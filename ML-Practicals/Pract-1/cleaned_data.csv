@@ -1,0 +1,11 @@
+Name,Age,Gender,Salary,City
+alice,25.0,female,50000.0,new york
+bob,30.0,male,59375.0,london
+charlie,26.5,female,55000.0,mumbai
+charlie,22.0,male,52500.0,delhi
+eve,31.5,female,59375.0,delhi
+frank,28.0,female,52000.0,london
+grace,27.0,m,51000.0,mumbai
+heidi,26.5,f,53000.0,london
+ivan,26.0,male,52500.0,new york
+judy,24.0,female,49000.0,mumbai
