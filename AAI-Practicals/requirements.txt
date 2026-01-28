@@ -1,0 +1,8 @@
+nltk
+transformers
+ultralytics
+numpy
+pandas
+scikit-learn
+tensorflow
+scikit-optimize
