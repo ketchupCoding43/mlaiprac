@@ -1,0 +1,87 @@
+Sr.No. Practical List 2 Credits
+(60Hrs)
+1. Data Pre-processing and Exploration OC1
+a. Load a CSV dataset. Handle missing values, inconsistent formatting, and
+outliers.
+b. Load a dataset, calculate descriptive summary statistics, create visualizations
+using different graphs, and identify potential features and target variables
+Note: Explore Univariate and Bivariate graphs (Matplotlib) and Seaborn for
+visualization.
+c. Create or Explore datasets to use all pre-processing routines like label encoding,
+scaling, and binarization.
+
+2. Testing Hypothesis OC1
+a. Implement and demonstrate the FIND-S algorithm for finding the most specific
+hypothesis based on a given set of training data samples. Read the training data
+from a. CSV file and generate the final specific hypothesis. (Create your dataset)
+
+3 Linear Models OC2, OC6
+a. Simple Linear Regression
+Fit a linear regression model on a dataset. Interpret coefficients, make
+predictions, and evaluate performance using metrics like R-squared and MSE
+b. Multiple Linear Regression
+Extend linear regression to multiple features. Handle feature selection and
+potential multicollinearity.
+c. Regularized Linear Models (Ridge, Lasso, ElasticNet)
+Implement regression variants like LASSO and Ridge on any generated dataset.
+
+4 Discriminative Models OC2,OC6
+a Logistic Regression
+Perform binary classification using logistic regression. Calculate accuracy,
+precision, recall, and understand the ROC curve.
+b. Implement and demonstrate k-nearest Neighbor algorithm. Read the training data
+from a .CSV file and build the model to classify a test sample. Print both correct
+and wrong predictions.
+c. Build a decision tree classifier or regressor. Control hyperparameters like tree
+depth to avoid overfitting. Visualize the tree.
+d. Implement a Support Vector Machine for any relevant dataset.
+e. Train a random forest ensemble. Experiment with the number of trees and
+feature sampling. Compare performance to a single decision tree.
+f. Implement a gradient boosting machine (e.g., XGBoost). Tune hyperparameters
+and explore feature importance.
+
+5. Generative Models OC2,OC6
+a. Implement and demonstrate the working of a Naive Bayesian classifier using a
+sample data set. Build the model to classify a test sample.
+b. Implement Hidden Markov Models using hmmlearn
+
+
+6. Probabilistic Models OC2,OC6
+a. Implement Bayesian Linear Regression to explore prior and posterior
+distribution.
+b. Implement Gaussian Mixture Models for density estimation and unsupervised
+Clustering
+
+7. Model Evaluation and Hyperparameter Tuning OC3,OC4,OC5
+a. Implement cross-validation techniques (k-fold, stratified, etc.) for robust model
+evaluation
+b. Systematically explore combinations of hyperparameters to optimize model
+performance.(use grid and randomized search)
+
+8. Bayesian Learning OC3,OC4,OC5
+a. Implement Bayesian Learning using inferences
+
+9. Deep Generative Models OC3,OC4,OC5
+a. Set up a generator network to produce samples and a discriminator network to
+distinguish between real and generated data. (Use a simple small dataset)
+
+10. Develop an API to deploy your model and perform predictions 
+
+
+
+
+
+
+
+======
+
+
+Based on training data Implement Least square regression algo
+Decision tree based on ID3 algo, use dataset to build decision tree and apply this knowledge to classify new sample
+K-nearest neighbour algo to classify iris data set
+Euclidean with prediction, test score and confusion matrix
+K means clustering with prediction , test score and confusion matrix
+Hierarchical clustering with prediction , test score and confusion matrix
+Rule based method implement and test the same
+Bayesian network considering medical data. Demo diagnosis of heart patients using standard heart diseases dataset
+Implement a non parametric locally weighted regression algorithm in order to fit data points. Select appropriate data set and draw graphs
