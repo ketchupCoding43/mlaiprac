@@ -1,0 +1,29 @@
+Ubuntu
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install -y python3.10 python3.10-venv python3.10-dev python3.12 python3.12-venv python3.12-dev
+python3.10 -m venv venv
+source venv/bin/activate
+python --version
+pip --version
+python -m pip install -r requirements.txt
+python your_file.py
+
+Windows
+
+
+py -m venv venv (OR py -3.10 -m venv venv)
+venv\Scripts\activate (for powershell: venv\Scripts\Activate.ps1)
+python -m pip install -r requirements.txt
+py -3.10 your_file.py (OR python your_file.py)
+
+
+
+
+Torch use cpu
+In requirements file
+torch==2.2.2+cpu
+torch==2.6.0+cpu (this is better)
+numpy<2
+pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+pip install --no-cache-dir torch==2.6.0+cpu torchvision==0.21.0+cpu torchaudio --index-url
